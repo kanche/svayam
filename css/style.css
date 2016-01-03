@@ -1,0 +1,116 @@
+
+/* navbar */
+  .navbar {
+      position: fixed;
+      top: 0;
+      left: 0; }
+  .navbar,
+  .navbar-spacer {
+    display: block;
+    width: 100%;
+    height: 6.5rem;
+    background: #fff;
+    z-index: 99;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    display: block; }
+  .navbar > .container {
+    width: 100%; }
+  .navbar-list {
+    list-style: none;
+    margin-bottom: 0; }
+  .navbar-item {
+    position: relative;
+    float: right;
+    margin-bottom: 0; }
+  .navbar-link {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    margin-right: 35px;
+    text-decoration: none;
+    line-height: 6.5rem;
+    color: #222; }
+  .navbar-link.active {
+    color: #33C3F0; }
+
+.intro {
+   position: relative;
+   min-width: 800px;
+   min-height: 540px;
+   width: 100%; /* for IE 6 */
+}
+
+#intro-desc {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+}
+
+td {
+    padding: 0 3px 0 0;
+}
+
+th {
+    padding: 0;
+    font-family: "Homenaje", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 3.4rem;
+    padding-bottom: 0px;
+}
+
+td  a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #444;
+}
+
+#olinks td{
+    text-align: center;
+}
+
+i.fa {
+    padding-right: 2px;
+}
+
+.section {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: .9em;
+}
+
+.section a {
+
+        text-decoration: none;
+        color: #005069;
+        font-weight: 800;
+}
+.secimg {
+    width: 100%;
+    border-radius: 5px;
+}
+
+input[class^="ss-"], input[class*=" ss-"] {
+    height: 25px;
+    margin-bottom: 0;
+    width:70%;
+    float: right;
+}
+
+input[type="submit"] {
+    height: 25px;
+    line-height: 0;
+    width: 40%;
+}
+
+label {
+    font-size: 11px;
+    width:100%;
+    display:inline-block;
+    vertical-align: middle;
+}
+label div {
+    width: 30%;
+    float: left;
+    line-height: 30px;
+}
